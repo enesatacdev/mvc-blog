@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\bin\Debug\net5.0\EnesAtac.Service.deps.json
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\bin\Debug\net5.0\EnesAtac.Service.dll
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\bin\Debug\net5.0\ref\EnesAtac.Service.dll
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\bin\Debug\net5.0\EnesAtac.Service.pdb
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\obj\Debug\net5.0\EnesAtac.Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\obj\Debug\net5.0\EnesAtac.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\obj\Debug\net5.0\EnesAtac.Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\obj\Debug\net5.0\EnesAtac.Service.AssemblyInfo.cs
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\obj\Debug\net5.0\EnesAtac.Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\obj\Debug\net5.0\EnesAtac.Service.dll
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\obj\Debug\net5.0\ref\EnesAtac.Service.dll
+C:\Users\User\Desktop\EnesAtac\EnesAtac.Service\obj\Debug\net5.0\EnesAtac.Service.pdb

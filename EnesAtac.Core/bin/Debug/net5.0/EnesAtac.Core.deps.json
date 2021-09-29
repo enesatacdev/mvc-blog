@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EnesAtac.Core/1.0.0": {
+        "runtime": {
+          "EnesAtac.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EnesAtac.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
