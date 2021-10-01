@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace EnesAtac.Data.Configurations
 {
-    class ArticleConfiguration : IEntityTypeConfiguration<Article>
+    public class GalleryConfiguration : IEntityTypeConfiguration<Gallery>
     {
-        public void Configure(EntityTypeBuilder<Article> builder)
+        public void Configure(EntityTypeBuilder<Gallery> builder)
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.Name).IsRequired();
-            builder.ToTable("Articles");
+            builder.ToTable("Galleries");
         }
     }
 }

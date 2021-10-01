@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EnesAtac.Core.Models
 {
-    public interface GalleryImage
+    public interface GalleryImages
     {
         public int Id { get; set; }
         public string ImageUrl { get; set; }

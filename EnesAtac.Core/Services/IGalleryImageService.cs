@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EnesAtac.Core.Services
 {
-    public interface IGalleryImageService : IService<GalleryImage>
+    public interface IGalleryImageService : IService<GalleryImages>
     {
     }
 }

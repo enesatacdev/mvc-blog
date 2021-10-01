@@ -1,4 +1,5 @@
 ﻿using EnesAtac.Core.Models;
+using EnesAtac.Data.Configurations;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace EnesAtac.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Gallery> Galleries { get; set; }
-        public DbSet<GalleryImage> GalleryImages { get; set; }
+        public DbSet<GalleryImages> GalleryImages { get; set; }
         public DbSet<Log> Logs { get; set; }
         public DbSet<Menu> Menus { get; set; }
         public DbSet<MenuList> MenuLists { get; set; }
@@ -28,7 +29,17 @@ namespace EnesAtac.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfiguration(new ArticleConfiguration());
+            modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+            modelBuilder.ApplyConfiguration(new CommentConfiguration());
+            modelBuilder.ApplyConfiguration(new GalleryConfiguration());
+            modelBuilder.ApplyConfiguration(new GalleryImageConfiguration());
+            modelBuilder.ApplyConfiguration(new LogConfiguration());
+            modelBuilder.ApplyConfiguration(new MenuConfiguration());
+            modelBuilder.ApplyConfiguration(new MenuListConfiguration());
+            modelBuilder.ApplyConfiguration(new MenuTypeCategories());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new UserTypeConfiguration());
         }
     }
 }

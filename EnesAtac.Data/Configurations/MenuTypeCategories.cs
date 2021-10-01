@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace EnesAtac.Data.Configurations
 {
-    class ArticleConfiguration : IEntityTypeConfiguration<Article>
+    public class MenuTypeCategories : IEntityTypeConfiguration<MenuType>
     {
-        public void Configure(EntityTypeBuilder<Article> builder)
+        public void Configure(EntityTypeBuilder<MenuType> builder)
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.Name).IsRequired();
-            builder.ToTable("Articles");
+            builder.ToTable("MenuTypes");
         }
     }
 }

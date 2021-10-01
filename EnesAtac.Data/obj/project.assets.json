@@ -5808,9 +5808,9 @@
     "net5.0": [
       "EnesAtac.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.10",
-      "Microsoft.EntityFrameworkCore.Design >= 5.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.10"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.10",
+      "Microsoft.Extensions.DependencyInjection >= 5.0.2"
     ]
   },
   "packageFolders": {
@@ -5865,12 +5865,6 @@
             "target": "Package",
             "version": "[5.0.10, )"
           },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.0.10, )"
-          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.10, )"
@@ -5880,6 +5874,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.10, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[5.0.2, )"
           }
         },
         "imports": [
